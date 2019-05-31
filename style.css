@@ -1,0 +1,323 @@
+body {
+  background-color: white;
+  font-family: 'Hammersmith One';
+  margin: 0;
+  padding: 0;
+  width: 1366px;
+  align-items: center;
+  padding: 20px;
+}
+
+a:link {
+  color: rgb(71, 41, 118);
+  text-decoration: none;
+}
+/*Header and Belong logo section*/
+header {
+  display: flex;
+  align-items: center;
+  padding-left: 213px;
+  padding-right: 213px;
+  padding-bottom: 10px;
+}
+.logo {
+  text-align: left;
+}
+
+/*Navingation menu section*/
+nav {
+  display: flex;
+  align-items: center;
+  padding-left: 213px;
+  padding-right: 213px;
+}
+nav span {
+  display: inline-block;
+  padding: 20px;
+  font-size: 18px;
+}
+
+/*Orange Banner section*/
+.orangeblock {
+  background-image: url("resources/herostatement.png");
+  background-size: cover;
+  width: 1366px;
+}
+.orangeblock .content {
+  width: 940px;
+  text-align: left;
+  display: inline-block;
+}
+.orangeblock .content img {
+  display: flex;
+}
+.orangeblock .content h1 {
+  font-size: 61px;
+  color: white;
+}
+.orangeblock .content h2 {
+  font-size: 37px;
+  color: white;
+}
+.quoteblock {
+
+  align-items: center;
+  padding-left: 213px;
+  padding-right: 213px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/*Quote block and Plan A */
+.quoteblocklogo img {
+  width: 940px;
+  height: 289px;
+}
+.planA {
+  background-image: url("resources/handshake.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 1366px;
+  height: 508px;
+}
+.PlanAcontainer {
+  display: flex;
+  width: 330px;
+  padding-left: 150px;
+  padding-top: 275px;
+  padding-bottom: 20px;
+}
+.PlanAcontainer h1 {
+  color: white;
+}
+.header,
+.orangeblock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Icon menu section*/
+.picturenav {
+  text-align: center;
+  top: 40px;
+  position: relative;
+  font-size: 25px;
+  color: rgb(71, 41, 118);
+  padding-bottom: 60px;
+}
+.icon {
+  text-align: justify;
+  display: inline-block;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.icon img {
+  display: block;
+  margin: 0 auto;
+}
+/*News and twitter feed section*/
+#wrapper {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 450px);
+  grid-auto-rows: 490px;
+  grid-gap: 10px;
+  width: 1366px;
+}
+.bigger {
+  grid-row: 1 / 3;
+  grid-column: 2 / 2;
+}
+.block {
+display: inline-block;
+max-height: 400px;
+}
+.block img {
+  padding-bottom: 10px;
+}
+.block h2 {
+  font-size: 15px;
+  font-family: 'Gotham'
+}
+.block h1 {
+  font-size: 25px;
+  color: rgb(71, 41, 118);
+}
+
+/************************** WHAT WE DO PAGE *************************/
+
+.whatwedobanner {
+  text-align: center;
+}
+
+.whatwedosection {
+  width: 940px;
+  display: inline-block;
+}
+
+.whatwedosection img {
+  padding-right: 10px;
+}
+
+
+.whatwedosectioncontent {
+  text-align: left;
+  font-family: 'Gotham';
+}
+
+.whatwedosection h1 {
+  font-size: 25px;
+  color: rgb(71, 41, 118);
+  font-family: 'Hammersmith One'
+}
+
+.serviceusers {
+  text-align: left;
+  font-family: 'Gotham';
+}
+
+.serviceusers img {
+  padding: 20px;
+}
+
+
+/*********************** SERVICES PAGE ***********************/
+
+.serviceheader {
+  text-align: center;
+}
+
+.servicesection {
+  width: 940px;
+  display: inline-block;
+}
+
+.servicesection img {
+  padding-right: 15px;
+}
+
+.servicecontent {
+  text-align: left;
+  font-family: 'Gotham';
+}
+
+.servicesection h1 {
+  font-size: 25px;
+  color: rgb(71, 41, 118);
+  font-family: 'Hammersmith One'
+}
+
+.servicemethods {
+  text-align: left;
+  font-family: 'Gotham';
+}
+
+.servicemethods img {
+  padding: 20px;
+}
+
+/********************** TRAINING PAGE **********************/
+
+.trainingbanner {
+  text-align: center;
+}
+
+.trainingbanner img {
+  width: 940px;
+  height: 330px;
+}
+
+.trainingsection {
+  width: 940px;
+  display: inline-block;
+}
+
+.trainingsection img {
+  padding-right: 15px;
+}
+
+.trainingcontent {
+  text-align: left;
+  font-family: 'Gotham';
+}
+
+.trainingsection h1 {
+  font-size: 25px;
+  color: rgb(71, 41, 118);
+  font-family: 'Hammersmith One';
+}
+
+.trainingmethods {
+  text-align: left;
+  font-family: 'Gotham';
+}
+
+.trainingmethods img {
+  padding: 20px;
+}
+
+/******************** GET INVOLVED PAGE **************/
+
+.getinvolvedbanner {
+  text-align: center;
+}
+
+.getinvolvedbanner img {
+  width: 940px;
+  height: 330px;
+}
+
+.getinvolvedsection {
+  width: 940px;
+  display: inline-block;
+}
+
+.getinvolvedcontent img {
+  padding-right: 15px;
+}
+
+.getinvolvedcontent {
+  text-align: left;
+  font-family: 'Gotham'
+}
+
+.getinvolvedsection h1 {
+  font-size: 25px;
+  color: rgb(71, 41, 118);
+  font-family: 'Hammersmith One';
+}
+
+.getinvolvedmethod {
+  text-align: left;
+  font-family: 'Gotham'
+}
+
+/******************* DONATE PAGE ***************/
+
+.donatesection {
+  width: 940px;
+  display: inline-block;
+}
+
+.donatecontent img {
+  padding-right: 15px;
+}
+
+.donatecontent {
+  text-align: left;
+  font-family: 'Gotham'
+}
+
+.donatesection h1 {
+  font-size: 25px;
+  color: rgb(71, 41, 118);
+  font-family: 'Hammersmith One';
+}
+
+
+
+/*Phone bootstrap*/
+@media only screen and (max-width: 480px) {
+  .page-title {
+    max-width: 270px;
+  }
